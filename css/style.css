@@ -1,7 +1,7 @@
 /*
 Error: Invalid CSS after "p": expected "{", was ""
-        on line 8 of /Users/932400676/Desktop/Sea-lion-trust/sass/_nav.scss
-        from line 1 of /Users/932400676/Desktop/Sea-lion-trust/sass/style.scss
+        on line 8 of /Users/hayleyclarke/Desktop/sea-lion-trust/sass/_nav.scss
+        from line 1 of /Users/hayleyclarke/Desktop/sea-lion-trust/sass/style.scss
 
 3: }
 4: 
@@ -10,8 +10,8 @@ Error: Invalid CSS after "p": expected "{", was ""
 7: p
 
 Backtrace:
-/Users/932400676/Desktop/Sea-lion-trust/sass/_nav.scss:8
-/Users/932400676/Desktop/Sea-lion-trust/sass/style.scss:1
+/Users/hayleyclarke/Desktop/sea-lion-trust/sass/_nav.scss:8
+/Users/hayleyclarke/Desktop/sea-lion-trust/sass/style.scss:1
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
@@ -60,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"p\": expected \"{\", was \"\"\A         on line 8 of /Users/932400676/Desktop/Sea-lion-trust/sass/_nav.scss\A         from line 1 of /Users/932400676/Desktop/Sea-lion-trust/sass/style.scss\A \A 3: }\A 4: \A 5: logo\A 6: \A 7: p"; }
+  content: "Error: Invalid CSS after \"p\": expected \"{\", was \"\"\A         on line 8 of /Users/hayleyclarke/Desktop/sea-lion-trust/sass/_nav.scss\A         from line 1 of /Users/hayleyclarke/Desktop/sea-lion-trust/sass/style.scss\A \A 3: }\A 4: \A 5: logo\A 6: \A 7: p"; }
