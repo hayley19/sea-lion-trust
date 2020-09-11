@@ -1,0 +1,16 @@
+@mixin dimension($w,$h){
+  width:$w;
+  height:$h;
+}
+
+@mixin font-style ($fs, $fw, $c){
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+}
+
+@mixin button-style ($b, $fs, $br){
+    background: $b;
+    font-size: $fs;
+    border-radius: $br;
+}

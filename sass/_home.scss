@@ -1,5 +1,9 @@
+@import 'mixin';
+
 .donate-button1{
-  background-color: #fdc752;
-  font-size: 14px;
-  border-radius: 4px;
+@include button-style(#fdc752, 20px, 4px)
+}
+
+.heading{
+  @include font-style(48px, bolder, black);
 }
