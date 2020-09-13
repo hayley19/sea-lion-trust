@@ -7,36 +7,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>NZ sea lion trust</title>
-  </head>
-  <body>
+    </head>
+    <body>
 
-    <!-- \\\\\\\\\\nav section////////// -->
-    <div class="logo-container">
-      <img class="logo" src="images/logo.svg" alt="logo">
+
+
+
+<!-- \\\\\\\\\\nav section ends////////////////////////////////////////////////////. ///////////////////////// -->
+  <div class="mobile-container">
+
+    <div class="topnav">
+      <a href="#home" class="active"><img src="images/logo.png" alt="logo"></a>
+      <div id="myLinks">
+        <a href="#Get involved">Get involved</a>
+        <a href="#About">About</a>
+        <a href="#Sealions">Sealions</a>
+        <a href="#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 
-    <div class="burgermenu">
-      <i class="fas fa-bars"></i>
-    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+    <!-- \\\\\\\\\\nav section ends//////////////////////////////////////////////////////////////////// -->
 
 
-    <div class="nav-container">
-      <nav class="top-nav">
-        <ul class="top-list">
-          <li id="home" class="top-nav-list"><a class="top-nav-link" href="#"></a>Home</li>
-          <li id="about" class="top-nav-list"><a class="top-nav-link" href="#"></a>About</li>
-          <li id="get involved" class="top-nav-list"><a class="top-nav-link" href="#"></a>Get involved</li>
-          <li id="sealions" class="top-nav-list"><a class="top-nav-link" href="#"></a>Sea lions</li>
-          <li id="contact" class="top-nav-list"><a class="top-nav-link" href="#"></a>Contact</li>
-        </ul>
-      </nav>
-    </div>
-    <!-- \\\\\\\\\\nav section ends////////// -->
 
-    <!-- \\\\\\\\\\home//////// -->
+
+    <!-- \\\\\\\\\\home//////////////////////////////////////////////////////////////////////////// -->
       <div class="home-page-container">
         <h1 class="row heading">NZ Sea lion trust</h1>
-        <div class="body-copy">
+        <div class="body-copy" >
+
           <p>Formed in 2003 The New Zealand Sea Lion Trust is a non profit organisation based in Dunedin with a specific focus on the conservation of NZ sea lions.</p>
           <br>
           <p>With your support we can try save New Zealand sea lions.
@@ -47,7 +60,14 @@
           <button class="donate-button1" id="donate-button1" type="button">Donate</button>
         </div>
 
-        <img src="images/seal.jpg" alt="seal">
+        <svg>
+          <svg width="375" height="255" viewBox="0 0 375 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M-1 255.234H374.334V38.8135L374.088 1C286.513 1 270.496 76.5964 193.43 115.605C135.208 145.071 58.3104 106.285 -0.99234 172.968" fill="#1663A0"/>
+          <path d="M-1 255.234H374.334V38.8135L374.088 1C286.513 1 270.496 76.5964 193.43 115.605C135.208 145.071 58.3104 106.285 -0.99234 172.968" stroke="#1663A0" stroke-miterlimit="10"/>
+          </svg>
+        </svg>
+
+          <!-- <img src="images/blue1.png" alt="seal"> -->
 
         <div class="Social links">
         <!-- <link rel="stylesheet" href="/css/master.css"> -->
@@ -55,68 +75,85 @@
       </div>
 
 
-    <!-- \\\\\\\\\\home ends//////// -->
+    <!-- \\\\\\\\\\home ends////////////////////////////////////////////////////////////////// -->
 
 
-    <!-- \\\\\\\\\\get involved//////// -->
-  <div class="get-involved-container">
 
-    <h2 class="sub-header">Get involved</h2>
 
-    <div class="donate-button-container2">
-      <button class="donate-button2" id="donate-button2" type="button">Donate</button>
+
+    <!-- \\\\\\\\\\get involved////////////////////////////////////////////////////////////////// -->
+    <div class="get-involved-container">
+      <h2 class="sub-header">Get involved</h2>
+
+      <div class="donate-button-container2">
+        <img src="images/donate.png" alt="">
+        <button class="donate-button2" id="donate-button2" type="button">Donate</button>
+      </div>
+
+      <div class="volunteer-button-container">
+        <img src="images/volunteer.png" alt="">
+        <button class="volunteer-button" id="volunteer-button" type="button">Volunteer</button>
+      </div>
+
+      <div class="member-button-container">
+        <img src="images/member.png" alt="">
+        <button class="member-button" id="member-button" type="button">Become a member</button>
+      </div>
+
+    </div>
+      <div class="Fundraise-button-container">
+        <img src="images/fundraise.png" alt="">
+        <button class="fundraise-button" id="fundraise-button" type="button">Fundraise</button>
     </div>
 
-    <div class="volunteer-button-container">
-      <button class="volunteer-button" id="volunteer-button" type="button">Volunteer</button>
-    </div>
 
-    <div class="Fundraise-button-container">
-      <button class="fundraise-button" id="fundraise-button" type="button">Fundraise</button>
-    </div>
-
-    <div class="member-button-container">
-      <button class="member-button" id="member-button" type="button">Become a member</button>
-    </div>
-  </div>
     <!-- \\\\\\\\\\get involved ends//////// -->
 
 
+
+
+
     <!-- \\\\\\\\\\about//////// -->
-  <div class="about-container">
-     <h2 class="sub-header">Our mission</h2>
-     <p>To promote the protection and conservation of the endangered New Zealand Sea Lion through research and public education.</p>
-     <br>
-     <h2 class="sub-header">Who we are</h2>
-     <p>We are staffed and supported entirely by volunteers and self funded by donations from generous members and donors.
-     </p>
-     <br>
-    <img src="images/seal.jpg" alt="seal">
+    <div class="about-container">
+       <h2 class="sub-header">Our mission</h2>
+       <p>To promote the protection and conservation of the endangered New Zealand Sea Lion through research and public education.</p>
+       <br>
+       <h2 class="sub-header">Who we are</h2>
+       <p>We are staffed and supported entirely by volunteers and self funded by donations from generous members and donors.
+       </p>
+       <br>
+      <img src="images/seal.jpg" alt="seal">
 
-    <h2 class="sub-header">Threats</h2>
-    <p>NZ Sea Lions are endangered and a ‘nationally critical’ species, the highest threat category in New Zealand.<br>Competition for food, accidental drowning in trawl fisheries, disease and human disturbance are our biggest threats.
-    </p>
-    <br>
-    <h2 class="sub-header">Our work</h2>
-    <p>The NZ Sea Lion Trust and The Department of Conservation work closely together to conserve the NZ Sea Lions by monitoring females and pups, running community activities, delivering education programmes and supporting scientific research.<br>Our research and monitoring efforts are focused on the Otago and Catlins Coast at this stage.
-    </p>
-    <br>
-    <img src="images/seal.jpg" alt="seal">
-  </div>
+      <h2 class="sub-header">Threats</h2>
+      <p>NZ Sea Lions are endangered and a ‘nationally critical’ species, the highest threat category in New Zealand.<br>Competition for food, accidental drowning in trawl fisheries, disease and human disturbance are our biggest threats.
+      </p>
+      <br>
+      <h2 class="sub-header">Our work</h2>
+      <p>The NZ Sea Lion Trust and The Department of Conservation work closely together to conserve the NZ Sea Lions by monitoring females and pups, running community activities, delivering education programmes and supporting scientific research.<br>Our research and monitoring efforts are focused on the Otago and Catlins Coast at this stage.
+      </p>
+      <br>
+      <img src="images/seal.jpg" alt="seal">
+    </div>
 
-    <!-- \\\\\\\\\\about ends//////// -->
+    <!-- \\\\\\\\\\about ends////////////////////////////////////////////////////////////////// -->
 
-    <!-- \\\\\\\\\\sealions//////// -->
+
+
+
+    <!-- \\\\\\\\\\sealions////////////////////////////////////////////////////////////////// -->
     <div class="sealions-container">
       <h2 class="sub-header">Sea lions</h2>
       <p>Despite being fully protected under the Wildlife Act and Marine Mammal Protection Act, NZ sea lions are sometimes harassed and killed deliberately, with several such incidents in Otago and Southland in recent years.</p>
       <p>Let DOC know if you're concerned about the safety of a sea lion, or to report inappropriate behaviour around them.
       Enjoy these impressive animals.</p>
     </div>
-    <!-- \\\\\\\\\\sealions ends//////// -->
+    <!-- \\\\\\\\\\sealions ends////////////////////////////////////////////////////////////////// -->
 
 
-    <!-- \\\\\\\\\\contact//////// -->
+
+
+
+    <!-- \\\\\\\\\\contact////////////////////////////////////////////////////////////////// -->
     <div class="contact-container">
       <h2 class="sub-header">Get in touch</h2>
       <p>We would love to hear from you!</p>
@@ -126,9 +163,12 @@
       <img src="images/seals2.jpg" alt="seals">
 
     </div>
-    <!-- \\\\\\\\\\contact ends//////// -->
+    <!-- \\\\\\\\\\contact ends////////////////////////////////////////////////////////////////// -->
 
-    <!-- \\\\\\\\\\volunteer//////// -->
+
+
+
+    <!-- \\\\\\\\\\volunteer////////////////////////////////////////////////////////////////// -->
     <div class="volunteer-container">
       <h2 class="sub-header">Volunteer with us</h2>
       <p>Volunteering with us is a great way to learn new skills, get outdoors, meet new friends and share knowledge with the local community.Donations small or large are gratefully received and help support the protection of the NZ Sea Lion.</p>
@@ -138,27 +178,40 @@
         <button class="volunteer-button2" id="volunteer-button2" type="button">Sign up</button>
       </div>
     </div>
-    <!-- \\\\\\\\\\volunteer ends//////// -->
-
-    <!-- \\\\\\\\\\volunteer sign up//////// -->
-    <!-- \\\\\\\\\\volunteer sign up ends//////// -->
+    <!-- \\\\\\\\\\volunteer ends////////////////////////////////////////////////////////////////// -->
 
 
-    <!-- \\\\\\\\\\donate//////// -->
-    <div class="donate-container">
+
+
+    <!-- \\\\\\\\\\volunteer sign up////////////////////////////////////////////////////////////////// -->
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\volunteer sign up ends/////////////////////////////////// -->
+
+
+
+
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\donate////////////////////////////////////////////// -->
+    <div class="donate-container3">
       <h2 class="sub-header">Donate</h2>
       <p>Donations small or large are gratefully received and help support the protection of the NZ Sea Lion.
       Funds raised will be used to buy essential equipment, such as scanners, for the use of our volunteers in monitoring the movements of the individual sea lions.</p>
-      <div class="donate-button-container2">
-        <button class="donate-button2" id="donate-button2" type="button">Donate</button>
+      <div class="donate-button-container3">
+        <button class="donate-button3" id="donate-button2" type="button">Donate</button>
       </div>
     </div>
-    <!-- \\\\\\\\\\donate ends//////// -->
+    <!-- \\\\\\\\\\donate ends////////////////////////////////////////////////////////// -->
 
-    <!-- \\\\\\\\\\donate sign up//////// -->
-    <!-- \\\\\\\\\\donate sign upends//////// -->
 
-    <!-- \\\\\\\\\\member//////// -->
+
+
+    <!-- \\\\\\\\\\donate sign up////////////////////////////////////////////////////////// -->
+    <!-- \\\\\\\\\\donate sign upends////////////////////////////////////////////////////////// -->
+
+
+
+
+    <!-- \\\\\\\\\\member/////////////////////////////////////////////////////////////////////////////////////// -->
     <div class="member-container">
       <h2 class="sub-header">Become a member</h2>
       <p>$20 per year</p>
@@ -168,12 +221,18 @@
         <button class="member-button2" id="member-button2" type="button">Join</button>
       </div>
     </div>
-    <!-- \\\\\\\\\\member ends//////// -->
+    <!-- \\\\\\\\\\member ends////////////////////////////////////////////////////////// -->
 
-    <!-- \\\\\\\\\\member sign up//////// -->
-    <!-- \\\\\\\\\\member sign upends//////// -->
 
-    <!-- \\\\\\\\\\fundraise//////// -->
+
+
+    <!-- \\\\\\\\\\member sign up////////////////////////////////////////////////////////// -->
+    <!-- \\\\\\\\\\member sign upends////////////////////////////////////////////////////////// -->
+
+
+
+
+    <!-- \\\\\\\\\\fundraise////////////////////////////////////////////////////////////////// -->
     <div class="fundraise-container">
       <h2 class="sub-header">Fundraise for us</h2>
       <p>Whether you are an individual, school or community group, fundraising is a great way to help support the preservation of the NZ Sea Lion. Have a great idea of how you could help? Get in touch!</p>
@@ -181,10 +240,13 @@
         <button class="fundraise-button2" id="fundraise-button2" type="button">Fundraise</button>
       </div>
     </div>
-    <!-- \\\\\\\\\\fundraise ends//////// -->
+    <!-- \\\\\\\\\\fundraise ends////////////////////////////////////////////////////////////////// -->
 
-    <!-- \\\\\\\\\\fundraise sign up//////// -->
-    <!-- \\\\\\\\\\fundraise sign upends//////// -->
+
+
+
+    <!-- \\\\\\\\\\fundraise sign up////////////////////////////////////////////////////////////////// -->
+    <!-- \\\\\\\\\\fundraise sign upends////////////////////////////////////////////////////////////////// -->
 
 
   </body>

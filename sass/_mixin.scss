@@ -9,7 +9,7 @@
   color: $c;
 }
 
-@mixin button-style ($b, $fs, $br){
+@mixin button-style ($b, $fs, $br,){
     background: $b;
     font-size: $fs;
     border-radius: $br;
