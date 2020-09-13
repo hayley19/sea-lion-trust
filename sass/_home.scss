@@ -1,7 +1,12 @@
 @import 'mixin';
 
-.heading{
+.title{
   @include font-style(48px, bolder, black);
+}
+
+
+.body-copy{
+  @include font-style(12px, light, black);
 }
 
 .donate-button1{
@@ -18,4 +23,9 @@
 }
 .donate-button1:hover{
   background-color: #ddd;
+}
+
+
+.inner-icon{
+  background-color: #black;
 }

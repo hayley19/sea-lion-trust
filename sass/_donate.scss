@@ -1,3 +1,14 @@
+@import 'mixin';
+
+.header{
+  @include font-style(24px, bold, black);
+}
+
+.body-copy{
+  @include font-style(12px, light, black);
+}
+
+
 .donate-button3{
   background-color: #fdc752;
   border: none;
@@ -11,4 +22,8 @@
 }
 .donate-button3:hover{
   background-color: #ddd;
+}
+
+.donate-seal{
+  border-radius: 80%;
 }

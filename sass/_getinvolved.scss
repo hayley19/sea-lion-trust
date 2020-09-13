@@ -1,29 +1,16 @@
-.donate-button2{
-background-color: white;
+@import 'mixin';
+
+.header{
+  @include font-style(24px, bold, black);
 }
+
+
+.donate-button2{
+
 
 .volunteer-button{
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-  }
+
 .member-button{
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
+
 
 .fundraise-button{
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-  }

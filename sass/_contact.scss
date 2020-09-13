@@ -1,0 +1,9 @@
+@import 'mixin';
+
+.heading{
+  @include font-style(48px, bolder, black);
+}
+
+.body-copy{
+  @include font-style(12px, light, black);
+}

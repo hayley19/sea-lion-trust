@@ -1,0 +1,10 @@
+@import 'mixin';
+
+.header{
+  @include font-style(24px, bold, black);
+}
+
+
+.body-copy{
+  @include font-style(12px, light, black);
+}

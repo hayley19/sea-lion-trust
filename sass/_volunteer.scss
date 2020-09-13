@@ -1,3 +1,17 @@
+.header{
+  @include font-style(24px, bold, black);
+}
+
+
+.body-copy{
+  @include font-style(12px, light, black);
+}
+
+.body-copy-bold{
+  @include font-style(14px, bold, black);
+}
+
+
 .volunteer-button2{
   background-color: #fdc752;
   border: none;

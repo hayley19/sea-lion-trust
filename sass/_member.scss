@@ -1,9 +1,12 @@
 @import 'mixin';
 
-.heading{
-  @include font-style(48px, bolder, black);
+.header{
+  @include font-style(24px, bold, black);
 }
 
+.body-copy{
+  @include font-style(12px, light, black);
+}
 .member-button2{
   background-color: #fdc752;
   border: none;
