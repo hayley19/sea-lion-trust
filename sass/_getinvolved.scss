@@ -4,13 +4,48 @@
   @include font-style(24px, bold, black);
 }
 
-
 .donate-button2{
-
+  border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .fundraise-button:hover {
+    background: #ddd;}
 
 .volunteer-button{
+  border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.volunteer-button:hover {
+  background: #ddd;}
 
 .member-button{
-
+  border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.member-button:hover {
+  background: #ddd;}
 
 .fundraise-button{
+  border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.fundraise-button:hover {
+  background: #ddd;}

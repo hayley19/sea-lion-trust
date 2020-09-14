@@ -9,13 +9,13 @@
 .topnav {
   overflow: hidden;
   position: relative;
-}
 
-.topnav #myLinks {
+
+ #myLinks {
   display: none;
 }
 
-.topnav a {
+a {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,13 +23,14 @@
   display: block;
 }
 
-.topnav a.icon {
+ a.icon {
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.topnav a:hover {
+ a:hover {
   background-color: #ddd;
+}
 }
