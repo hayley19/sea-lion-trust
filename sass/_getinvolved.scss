@@ -1,51 +1,26 @@
 @import 'mixin';
 
-.header{
-  @include font-style(24px, bold, black);
-}
 
 .donate-button2{
-  border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
+@include button-style2(none, inherit, 14px 28px, 16px, pointer, inline-block);
   }
-  .fundraise-button:hover {
+  .donate-button2:hover {
     background: #ddd;}
 
 .volunteer-button{
-  border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
+@include button-style2(none, inherit, 14px 28px, 16px, pointer, inline-block);
 }
 .volunteer-button:hover {
   background: #ddd;}
 
 .member-button{
-  border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
+@include button-style2(none, inherit, 14px 28px, 16px, pointer, inline-block);
 }
 .member-button:hover {
   background: #ddd;}
 
 .fundraise-button{
-  border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-
+@include button-style2(none, inherit, 14px 28px, 16px, pointer, inline-block);
 }
-
 .fundraise-button:hover {
   background: #ddd;}

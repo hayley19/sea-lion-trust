@@ -9,8 +9,24 @@
   color: $c;
 }
 
-@mixin button-style ($b, $fs, $br,){
-    background: $b;
-    font-size: $fs;
+@mixin button-style($bc, $b, $br, $c, $p, $ta, $td, $d, $fs, $cs){
+    background-color: $bc;
+    border: $b;
     border-radius: $br;
+    color: $c;
+    padding: $p;
+    text-align: $ta;
+    text-decoration: $td;
+    display: $d;
+    font-size: $fs;
+    cursor: $cs;
+}
+
+@mixin button-style2 ($b, $bc, $p, $fs, $cs, $d,){
+  border: $b;
+  background-color: $bc;
+  padding: $p;
+  font-size: $fs;
+  cursor: $cs;
+  display: $d;
 }

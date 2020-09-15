@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>NZ sea lion trust</title>
     </head>
     <body>
 
+<main>
 
 
 
@@ -30,16 +32,6 @@
       </a>
     </div>
 
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
     <!-- \\\\\\\\\\nav section ends//////////////////////////////////////////////////////////////////// -->
 
 
@@ -47,23 +39,27 @@
 
     <!-- \\\\\\\\\\home//////////////////////////////////////////////////////////////////////////// -->
       <div class="home-page-container">
-        <h1 class="title">NZ Sea lion trust</h1>
+        <h1 class="title col-12">NZ Sea lion trust</h1>
         <div class=home-page-text>
           <p class="body-copy">Formed in 2003 The New Zealand Sea Lion Trust is a non profit organisation based in Dunedin with a specific focus on the conservation of NZ sea lions.</p>
           <br>
           <p class="body-copy">With your support we can try save New Zealand sea lions.
         The worlds rarest sea lion species.</p>
         </div>
-
+       <br>
         <div class="donate-button-container1">
           <button class="donate-button1" id="donate-button1" type="button">Donate</button>
         </div>
+        <br>
 
-        <div class="Social links">
-          <div class="inner-icon"<i class="fab fa-instagram"></i></div>
-          <div class="inner-icon"<i class="fab fa-facebook-f"></i></div>
-          <div class="inner-icon"<i class="fas fa-envelope"></i></div>
       </div>
+        <div class="Social-link-container">
+        <img class=social-links src="images/facebook.png" alt="facebook">
+        <img class=social-links src="images/instagram.png" alt="instagram">
+        <img class=social-links src="images/gmail.png" alt="gmail">
+      </div>
+
+<!-- background image  -->
    </div>
     <!-- \\\\\\\\\\home ends////////////////////////////////////////////////////////////////// -->
 
@@ -76,23 +72,23 @@
       <h2 class="header">Get involved</h2>
 
       <div class="donate-button-container2">
-        <img src="images/donate.png" alt="">
+        <img class=icon src="images/donate.png" alt="">
         <button class="donate-button2" id="donate-button2" type="button">Donate</button>
       </div>
 
       <div class="volunteer-button-container">
-        <img src="images/volunteer.png" alt="">
+        <img class=icon src="images/volunteer.png" alt="">
         <button class="volunteer-button" id="volunteer-button" type="button">Volunteer</button>
       </div>
 
       <div class="member-button-container">
-        <img src="images/member.png" alt="">
+        <img class=icon src="images/member.png" alt="">
         <button class="member-button" id="member-button" type="button">Become a member</button>
       </div>
 
 
       <div class="Fundraise-button-container">
-        <img src="images/fundraise.png" alt="">
+        <img class=icon src="images/fundraise.png" alt="">
         <button class="fundraise-button" id="fundraise-button" type="button">Fundraise</button>
     </div>
   </div>
@@ -147,6 +143,7 @@
       <p class="body-copy">We would love to hear from you!</p>
       <p class="body-copy">NZ Sea Lion Trust PO Box 6012 Dunedin 9059 New Zealand</p>
       <p>0800 456 781</p>
+
       <!-- <link rel="stylesheet" href="/css/master.css"> -->
       <img src="images/seals22.jpg" alt="seals">
 
@@ -164,22 +161,19 @@
       <div class="donate-button-container3">
         <button class="donate-button3" id="donate-button2" type="button">Donate</button>
       </div>
-      <img class="donate-seal" src="images/1.jpg" alt="sealpup">
+      <img class="circle-image" src="images/1.jpg" alt="sealpup">
     </div>
+
+
+
+
     <!-- \\\\\\\\\\donate ends////////////////////////////////////////////////////////// -->
 
 
 
 
     <!-- \\\\\\\\\\donate sign up////////////////////////////////////////////////////////// -->
-    <div class="donate-sign-up-container">
-      <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname">
-    </form>
-    </div>
+
     <!-- \\\\\\\\\\donate sign upends////////////////////////////////////////////////////////// -->
 
 
@@ -195,7 +189,10 @@
       <div class="volunteer-button-container2">
         <button class="volunteer-button2" id="volunteer-button2" type="button">Sign up</button>
       </div>
-      <img class="donate-seal" src="images/volunteers.jpg" alt="3 volunteers">
+      <img class="circle-image" src="images/volunteers.jpg" alt="3 volunteers">
+
+      <!-- <img class="background-image" src="images/backgroundimage.svg" alt=""> -->
+
     </div>
     <!-- \\\\\\\\\\volunteer ends////////////////////////////////////////////////////////////////// -->
 
@@ -204,14 +201,32 @@
 
     <!-- \\\\\\\\\\volunteer sign up////////////////////////////////////////////////////////////////// -->
     <div class="volunteer-sign-up-container">
+      <h2 class="header">Volunteer</h2>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email">
+
+
+        <button class="form-button" id="form-button" type="button">Submit</button>
+      </div>
+
+      </form>
     </div>
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\volunteer sign up ends/////////////////////////////////// -->
 
 
+<script src="js/script.js">
+
+</script>
 
 
-
-
+</main>
 
   </body>
 </html>
